@@ -28,6 +28,11 @@ body {
   justify-content: center;
   min-width: 100vw;
   min-height: 100vh;
+  background-image: url('./assets/bg.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1 {
@@ -43,7 +48,8 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #0164a7;
+  color: #ffffff;
   cursor: pointer;
   transition: border-color 0.25s;
 }

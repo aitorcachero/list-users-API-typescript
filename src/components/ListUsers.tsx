@@ -29,13 +29,21 @@ export default function ListUsers() {
   return (
     <main className="main">
       <section className="filters-section">
-        <button onClick={handleColorsRows}>Colorea filas</button>
-        <button onClick={handleFilterCountry}>Ordena por país</button>
-        <button onClick={handleReset}>Restaurar estado inicial</button>
+        <button className="btn-shadow" onClick={handleColorsRows}>
+          Colorea filas
+        </button>
+        <button className="btn-shadow" onClick={handleFilterCountry}>
+          Ordena por país
+        </button>
+        <button className="btn-shadow" onClick={handleReset}>
+          Restaurar estado inicial
+        </button>
         <input
+          id="text-input"
           type="text"
           placeholder="Filtrar por país"
           className="input-filter"
+          value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
         />
       </section>
@@ -93,6 +101,7 @@ export default function ListUsers() {
                       surname: user.name?.last,
                     });
                   }}
+                  style={{ backgroundColor: '#a10000ec' }}
                 >
                   Borrar
                 </button>

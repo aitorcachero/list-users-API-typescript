@@ -1,3 +1,12 @@
+.input-filter {
+  display: flex;
+  text-align: center;
+}
+
+.btn-shadow {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
 .main {
   margin: 2rem;
   width: 100vw;
@@ -8,12 +17,12 @@
 table {
   margin-top: 2rem;
   border-collapse: collapse;
-
+  background-color: #1a1a1a;
   align-items: center;
   width: 100%;
   font-size: 1.2em;
   font-family: sans-serif;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
 }
 
 thead {

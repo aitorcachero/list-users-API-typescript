@@ -113,6 +113,7 @@ function useUsers() {
       row.classList.remove('colorimpar');
     });
     setColor(false);
+    setInputValue('');
   };
 
   return {
