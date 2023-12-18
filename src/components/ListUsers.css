@@ -1,0 +1,65 @@
+.main {
+  margin: 2rem;
+  width: 100vw;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+table {
+  margin-top: 2rem;
+  border-collapse: collapse;
+
+  align-items: center;
+  width: 100%;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+thead {
+  width: 100%;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: left;
+}
+
+th {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+td {
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.colorpar {
+  background-color: #444444;
+}
+
+.colorimpar {
+  background-color: #333333;
+}
+
+.th-name:hover {
+  background-color: #646cff;
+}
+
+.th-surname:hover {
+  background-color: #646cff;
+}
+
+.th-country:hover {
+  background-color: #646cff;
+}
+
+.sep-theader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.img-arrow {
+  width: 40px;
+}
